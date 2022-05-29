@@ -2387,3 +2387,65 @@ Script Stack (0 frames):
 [2022.05.29-05.25.16:210][718]LogSavePackage: Moving 'D:/GitHub/GameEngine/기말프로젝트_다있조/Saved/jump5848B46041499CCE9C8F88A0E641ECA2.tmp' to 'D:/GitHub/GameEngine/기말프로젝트_다있조/Content/ThirdPersonBP/Maps/jump.uasset'
 [2022.05.29-05.25.16:230][718]AssetCheck: New page: 에셋 저장:  jump
 [2022.05.29-05.25.16:230][718]LogContentValidation: Display: Blueprint /Game/ThirdPersonBP/Maps/jump.jump 유효성 검사 중
+[2022.05.29-05.28.01:031][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.05.29-05.28.04:222][767]LogSavePackage: Moving 'D:/GitHub/GameEngine/기말프로젝트_다있조/Saved/ThirdPersonExampleMap6FD943A546769459CB4CE1A9C0275680.tmp' to 'D:/GitHub/GameEngine/기말프로젝트_다있조/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.05.29-05.28.04:257][767]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.251
+[2022.05.29-05.28.04:290][767]AssetCheck: New page: 에셋 저장:  ThirdPersonExampleMap
+[2022.05.29-05.28.04:290][767]LogContentValidation: Display: World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap 유효성 검사 중
+[2022.05.29-05.28.24:619][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.05.29-05.28.27:800][793]LogSavePackage: Moving 'D:/GitHub/GameEngine/기말프로젝트_다있조/Saved/ThirdPersonExampleMap5A944C3B4B4AE2714A462496671BE527.tmp' to 'D:/GitHub/GameEngine/기말프로젝트_다있조/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.05.29-05.28.27:838][793]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.243
+[2022.05.29-05.28.27:857][793]AssetCheck: New page: 에셋 저장:  ThirdPersonExampleMap
+[2022.05.29-05.28.27:858][793]LogContentValidation: Display: World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap 유효성 검사 중
+[2022.05.29-05.28.29:341][868]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.05.29-05.28.29:356][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-05.28.29:357][868]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 5. 29. 오후 11:28:29)
+[2022.05.29-05.28.29:357][868]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.29-05.28.29:372][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015051s)
+[2022.05.29-05.28.29:373][868]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.05.29-05.28.29:374][868]LogPlayLevel: PIE: World Init took: (0.002003s)
+[2022.05.29-05.28.29:374][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017243s)
+[2022.05.29-05.28.29:395][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.05.29-05.28.29:396][868]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-05.28.29:396][868]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-05.28.29:396][868]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-05.28.29:397][868]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-05.28.29:397][868]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-05.28.29:397][868]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-05.28.29:397][868]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-05.28.29:399][868]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-05.28.29:399][868]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-05.28.29:458][868]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.29-05.28.29:459][868]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-05.28.29:459][868]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-05.28.29:459][868]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-05.28.29:460][868]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-05.28.29:460][868]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-05.28.29:460][868]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-05.28.29:462][868]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-05.28.29:462][868]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-05.28.29:462][868]LogInit: FAudioDevice initialized.
+[2022.05.29-05.28.29:462][868]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonExampleMap'.
+[2022.05.29-05.28.29:476][868]LogLoad: Game class is 'GameModeBase'
+[2022.05.29-05.28.29:478][868]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.05.29-14.28.29
+[2022.05.29-05.28.29:479][868]LogWorld: Bringing up level for play took: 0.001638
+[2022.05.29-05.28.29:479][868]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2022.05.29-05.28.29:481][868]PIE: 서버가 로그인했습니다.
+[2022.05.29-05.28.29:481][868]PIE: 에디터에서 플레이 총 시작 시간 0.126초입니다.
+[2022.05.29-05.28.35:592][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-05.28.35:592][276]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.29-05.28.35:592][276]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-05.28.35:593][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-05.28.35:606][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-05.28.35:614][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-05.28.35:633][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-05.28.35:633][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-05.28.35:635][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-05.28.35:643][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.05.29-05.28.35:690][277]LogPlayLevel: Display: Destroying online subsystem :Context_44
