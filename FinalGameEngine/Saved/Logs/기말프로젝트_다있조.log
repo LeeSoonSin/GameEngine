@@ -2204,3 +2204,314 @@ Script call stack:
 [2022.06.18-09.03.16:038][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/arrow" FILE="D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/arrow_Auto1.uasset" SILENT=false AUTOSAVING=true
 [2022.06.18-09.03.16:565][318]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/arrow_Auto12A264C994CEDF014FB45E6B520774245.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/arrow_Auto1.uasset'
 [2022.06.18-09.03.16:584][318]LogFileHelpers: Auto-saving content packages took 1.270
+[2022.06.18-09.03.45:807][573]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.18-09.03.45:818][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.18-09.03.45:819][573]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 6. 19. 오전 3:03:45)
+[2022.06.18-09.03.45:819][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.03.45:861][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041723s)
+[2022.06.18-09.03.45:862][573]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.06.18-09.03.45:862][573]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2022.06.18-09.03.45:862][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043262s)
+[2022.06.18-09.03.45:897][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.06.18-09.03.45:901][573]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.18-09.03.45:902][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.18-09.03.45:902][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.18-09.03.45:902][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.18-09.03.45:902][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.18-09.03.45:902][573]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.18-09.03.45:905][573]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.18-09.03.45:905][573]LogAudioMixer: Display: 1: FrontRight
+[2022.06.18-09.03.46:002][573]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.18-09.03.46:002][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.18-09.03.46:002][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.18-09.03.46:002][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.18-09.03.46:003][573]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.18-09.03.46:003][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.18-09.03.46:003][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.18-09.03.46:005][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.18-09.03.46:005][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.18-09.03.46:005][573]LogInit: FAudioDevice initialized.
+[2022.06.18-09.03.46:005][573]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonExampleMap'.
+[2022.06.18-09.03.46:045][573]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.06.18-09.03.46:047][573]LogScript: Warning: Script Msg: Divide by zero detected: -80.000092 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.06.18-09.03.46:050][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.06.18-18.03.46
+[2022.06.18-09.03.46:050][573]LogWorld: Bringing up level for play took: 0.004932
+[2022.06.18-09.03.46:051][573]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2022.06.18-09.03.46:055][573]PIE: 서버가 로그인했습니다.
+[2022.06.18-09.03.46:056][573]PIE: 에디터에서 플레이 총 시작 시간 0.238초입니다.
+[2022.06.18-09.03.48:218][700]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGideon/Characters/Heroes/Gideon/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.06.18-09.03.57:994][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.03.57:994][349]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.03.57:995][349]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.18-09.03.57:995][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.03.58:014][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.18-09.03.58:029][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.03.58:070][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.03.58:071][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.03.58:072][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.03.58:095][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.06.18-09.03.58:151][350]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.06.18-09.04.19:237][211]BlueprintLog: New page: trap_foot 컴파일
+[2022.06.18-09.04.19:302][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.06.18-09.04.20:963][279]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.18-09.04.20:979][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.18-09.04.20:979][279]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 6. 19. 오전 3:04:20)
+[2022.06.18-09.04.20:980][279]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.20:997][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017750s)
+[2022.06.18-09.04.20:998][279]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.06.18-09.04.20:999][279]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2022.06.18-09.04.20:999][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019365s)
+[2022.06.18-09.04.21:035][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.06.18-09.04.21:036][279]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.18-09.04.21:036][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.18-09.04.21:036][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.18-09.04.21:037][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.18-09.04.21:037][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.18-09.04.21:037][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.18-09.04.21:037][279]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.18-09.04.21:039][279]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.18-09.04.21:039][279]LogAudioMixer: Display: 1: FrontRight
+[2022.06.18-09.04.21:132][279]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.18-09.04.21:132][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.18-09.04.21:132][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.18-09.04.21:133][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.18-09.04.21:133][279]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.18-09.04.21:133][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.18-09.04.21:133][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.18-09.04.21:137][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.18-09.04.21:137][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.18-09.04.21:137][279]LogInit: FAudioDevice initialized.
+[2022.06.18-09.04.21:137][279]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonExampleMap'.
+[2022.06.18-09.04.21:190][279]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.06.18-09.04.21:193][279]LogScript: Warning: Script Msg: Divide by zero detected: -80.000092 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.06.18-09.04.21:195][279]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.06.18-18.04.21
+[2022.06.18-09.04.21:195][279]LogWorld: Bringing up level for play took: 0.004937
+[2022.06.18-09.04.21:196][279]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.06.18-09.04.21:200][279]PIE: 서버가 로그인했습니다.
+[2022.06.18-09.04.21:201][279]PIE: 에디터에서 플레이 총 시작 시간 0.223초입니다.
+[2022.06.18-09.04.23:327][407]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGideon/Characters/Heroes/Gideon/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.06.18-09.04.34:813][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.34:813][171]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.34:814][171]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.18-09.04.34:814][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.34:827][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.18-09.04.34:843][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.34:877][171]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.18-09.04.34:877][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.34:879][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.34:896][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.34:901][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.06.18-09.04.34:955][172]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.06.18-09.04.36:126][231]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.18-09.04.36:141][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.18-09.04.36:141][231]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 6. 19. 오전 3:04:36)
+[2022.06.18-09.04.36:141][231]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.36:155][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013282s)
+[2022.06.18-09.04.36:155][231]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.06.18-09.04.36:157][231]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2022.06.18-09.04.36:157][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015223s)
+[2022.06.18-09.04.36:191][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.06.18-09.04.36:193][231]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.18-09.04.36:193][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.18-09.04.36:193][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.18-09.04.36:194][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.18-09.04.36:194][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.18-09.04.36:194][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.18-09.04.36:194][231]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.18-09.04.36:196][231]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.18-09.04.36:196][231]LogAudioMixer: Display: 1: FrontRight
+[2022.06.18-09.04.36:283][231]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.18-09.04.36:284][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.18-09.04.36:284][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.18-09.04.36:284][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.18-09.04.36:285][231]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.18-09.04.36:285][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.18-09.04.36:285][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.18-09.04.36:287][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.18-09.04.36:287][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.18-09.04.36:287][231]LogInit: FAudioDevice initialized.
+[2022.06.18-09.04.36:287][231]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonExampleMap'.
+[2022.06.18-09.04.36:303][231]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.06.18-09.04.36:307][231]LogScript: Warning: Script Msg: Divide by zero detected: -80.000092 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.06.18-09.04.36:310][231]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.06.18-18.04.36
+[2022.06.18-09.04.36:310][231]LogWorld: Bringing up level for play took: 0.005008
+[2022.06.18-09.04.36:310][231]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.06.18-09.04.36:317][231]PIE: 서버가 로그인했습니다.
+[2022.06.18-09.04.36:319][231]PIE: 에디터에서 플레이 총 시작 시간 0.179초입니다.
+[2022.06.18-09.04.38:477][373]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGideon/Characters/Heroes/Gideon/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.06.18-09.04.39:613][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.39:613][448]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.39:613][448]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.18-09.04.39:614][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.39:632][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.18-09.04.39:647][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.39:687][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.39:688][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.39:690][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.39:718][448]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2022.06.18-09.04.39:770][449]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.06.18-09.04.40:332][483]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.18-09.04.40:345][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.18-09.04.40:345][483]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 6. 19. 오전 3:04:40)
+[2022.06.18-09.04.40:345][483]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.40:359][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013610s)
+[2022.06.18-09.04.40:360][483]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.06.18-09.04.40:361][483]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2022.06.18-09.04.40:361][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015100s)
+[2022.06.18-09.04.40:396][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.06.18-09.04.40:397][483]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.18-09.04.40:397][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.18-09.04.40:397][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.18-09.04.40:398][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.18-09.04.40:398][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.18-09.04.40:398][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.18-09.04.40:398][483]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.18-09.04.40:400][483]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.18-09.04.40:400][483]LogAudioMixer: Display: 1: FrontRight
+[2022.06.18-09.04.40:492][483]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.18-09.04.40:492][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.18-09.04.40:492][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.18-09.04.40:492][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.18-09.04.40:493][483]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.18-09.04.40:493][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.18-09.04.40:493][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.18-09.04.40:495][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.18-09.04.40:495][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.18-09.04.40:495][483]LogInit: FAudioDevice initialized.
+[2022.06.18-09.04.40:495][483]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonExampleMap'.
+[2022.06.18-09.04.40:513][483]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.06.18-09.04.40:519][483]LogScript: Warning: Script Msg: Divide by zero detected: -80.000092 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.06.18-09.04.40:522][483]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.06.18-18.04.40
+[2022.06.18-09.04.40:522][483]LogWorld: Bringing up level for play took: 0.004710
+[2022.06.18-09.04.40:522][483]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2022.06.18-09.04.40:529][483]PIE: 서버가 로그인했습니다.
+[2022.06.18-09.04.40:531][483]PIE: 에디터에서 플레이 총 시작 시간 0.187초입니다.
+[2022.06.18-09.04.42:680][623]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGideon/Characters/Heroes/Gideon/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.06.18-09.04.42:884][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.42:884][634]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.04.42:884][634]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.18-09.04.42:884][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.42:899][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.18-09.04.42:914][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.04.42:963][634]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.18-09.04.42:964][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.42:966][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.04.42:984][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.04.42:990][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.06.18-09.04.43:047][635]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.06.18-09.04.43:115][635]LogSlate: Took 0.001845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.06.18-09.04.43:119][635]LogSlate: Took 0.003751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.06.18-09.04.50:010][931]Cmd: TRANSACTION UNDO
+[2022.06.18-09.04.50:010][931]LogEditorTransaction: Undo 넘버 핀 값 변경
+[2022.06.18-09.05.01:026][368]BlueprintLog: New page: trap_foot 컴파일
+[2022.06.18-09.05.01:092][368]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2022.06.18-09.05.03:895][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/trap_foot" FILE="D:/GitHub/GameEngine/FinalGameEngine/Content/ThirdPersonBP/Maps/trap_foot.uasset" SILENT=true
+[2022.06.18-09.05.04:441][498]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/trap_footB8A15FDF4A2287B5524CCDB7D9C36CFA.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Content/ThirdPersonBP/Maps/trap_foot.uasset'
+[2022.06.18-09.05.04:495][498]AssetCheck: New page: 에셋 저장:  trap_foot
+[2022.06.18-09.05.04:495][498]LogContentValidation: Display: Blueprint /Game/ThirdPersonBP/Maps/trap_foot.trap_foot 유효성 검사 중
+[2022.06.18-09.05.05:404][543]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.18-09.05.05:415][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.18-09.05.05:415][543]PIE: New page: PIE 세션: ThirdPersonExampleMap (2022. 6. 19. 오전 3:05:05)
+[2022.06.18-09.05.05:416][543]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.05.05:430][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013815s)
+[2022.06.18-09.05.05:431][543]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.06.18-09.05.05:431][543]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2022.06.18-09.05.05:431][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015131s)
+[2022.06.18-09.05.05:465][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.06.18-09.05.05:466][543]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.18-09.05.05:467][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.18-09.05.05:467][543]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.18-09.05.05:467][543]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.18-09.05.05:467][543]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.18-09.05.05:467][543]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.18-09.05.05:469][543]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.18-09.05.05:469][543]LogAudioMixer: Display: 1: FrontRight
+[2022.06.18-09.05.05:552][543]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.18-09.05.05:552][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.18-09.05.05:552][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.18-09.05.05:552][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.18-09.05.05:553][543]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.18-09.05.05:553][543]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.18-09.05.05:553][543]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.18-09.05.05:554][543]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.18-09.05.05:554][543]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.18-09.05.05:554][543]LogInit: FAudioDevice initialized.
+[2022.06.18-09.05.05:554][543]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonExampleMap'.
+[2022.06.18-09.05.05:570][543]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.06.18-09.05.05:575][543]LogScript: Warning: Script Msg: Divide by zero detected: -80.000092 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.06.18-09.05.05:578][543]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.06.18-18.05.05
+[2022.06.18-09.05.05:578][543]LogWorld: Bringing up level for play took: 0.005264
+[2022.06.18-09.05.05:578][543]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2022.06.18-09.05.05:585][543]PIE: 서버가 로그인했습니다.
+[2022.06.18-09.05.05:586][543]PIE: 에디터에서 플레이 총 시작 시간 0.172초입니다.
+[2022.06.18-09.05.07:746][683]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGideon/Characters/Heroes/Gideon/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.06.18-09.05.17:393][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.05.17:393][315]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.06.18-09.05.17:393][315]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.18-09.05.17:394][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.05.17:410][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.18-09.05.17:426][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.18-09.05.17:470][315]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.18-09.05.17:470][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.05.17:472][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.18-09.05.17:492][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.18-09.05.17:497][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2022.06.18-09.05.17:551][316]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.06.18-09.05.19:559][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.06.18-09.05.23:034][387]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/ThirdPersonExampleMapEF04F6834FEF574AC932D488D1FDBEEB.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.06.18-09.05.23:926][387]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/ThirdPersonExampleMap_BuiltData0B6F47FB459362634F592082D63A3213.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.06.18-09.05.24:013][387]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2022.06.18-09.05.24:013][387]LogContentValidation: Display: MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData 유효성 검사 중
+[2022.06.18-09.05.24:013][387]LogContentValidation: Display: World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap 유효성 검사 중
