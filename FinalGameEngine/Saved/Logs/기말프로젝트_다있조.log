@@ -2197,3 +2197,10 @@ Script call stack:
 [2022.06.18-09.03.15:352][318]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Maps/MS_RT.MS_RT]
 [2022.06.18-09.03.15:352][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/MS_RT]
 [2022.06.18-09.03.15:352][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/MS_RT" FILE="D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/MS_RT_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.06.18-09.03.16:002][318]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/MS_RT_Auto1345D288B4E26C145A41C72808030BBCD.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/MS_RT_Auto1.uasset'
+[2022.06.18-09.03.16:009][318]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPersonBP/Maps/arrow] ([2] browsable assets)...
+[2022.06.18-09.03.16:037][318]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Maps/arrow.arrow]
+[2022.06.18-09.03.16:038][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/arrow]
+[2022.06.18-09.03.16:038][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/arrow" FILE="D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/arrow_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.06.18-09.03.16:565][318]LogSavePackage: Moving 'D:/GitHub/GameEngine/FinalGameEngine/Saved/arrow_Auto12A264C994CEDF014FB45E6B520774245.tmp' to 'D:/GitHub/GameEngine/FinalGameEngine/Saved/Autosaves/Game/ThirdPersonBP/Maps/arrow_Auto1.uasset'
+[2022.06.18-09.03.16:584][318]LogFileHelpers: Auto-saving content packages took 1.270
